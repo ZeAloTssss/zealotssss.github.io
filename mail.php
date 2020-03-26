@@ -35,6 +35,6 @@ $mail->AltBody = '';
 if(!$mail->send()) {
     echo 'Error';
 } else {
-    header('location: pages/thank-you.html');
+    header('location: thank-you.html');
 }
 ?>
