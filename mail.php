@@ -11,7 +11,7 @@ $email = $_POST['user_email'];
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  																							// Specify main and backup SMTP servers
+$mail->Host = 'smtp.mail.google.com';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'formyprogtests@gmail.com'; // Ваш логин от почты с которой будут отправляться письма
 $mail->Password = '#asdf#asdf'; // Ваш пароль от почты с которой будут отправляться письма
